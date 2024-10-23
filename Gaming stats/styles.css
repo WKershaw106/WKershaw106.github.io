@@ -1,0 +1,45 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 0;
+    background-color: #e8e7e7;
+}
+
+/* Styling for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #61329e;
+    color: rgb(0, 255, 208);
+}
+
+/* Styling for each menu item */
+nav ul {
+    margin: 0px;
+list-style-type:none }
+
+/* Styling for the links in the menu */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+nav table { 
+    align-items: center;
+}

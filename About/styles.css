@@ -1,52 +1,71 @@
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 5;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e8e7e7;
 }
 
 /* Styling for the header */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #dc68fc;
-    color: white;
-}
-
-/* Styling for the heading */
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #000000;
-}
-
-/* Styling for the navigation menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
+    background-color: #61329e;
+    color: rgb(0, 255, 208);
 }
 
 /* Styling for each menu item */
-nav ul li {
-    margin: 0 15px;
-}
+nav ul {
+    margin: 0px;
+list-style-type:none }
 
 /* Styling for the links in the menu */
-nav ul li a {
+nav a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    display: block;
     transition: background-color 0.3s;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
 /* Hover effect for the menu items */
-nav ul li a:hover {
+nav ul a:hover {
     background-color: #555;
     border-radius: 5px;
 }
+
+.image {
+    width: 400px; 
+    height: auto; 
+    border-radius: 20px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.list-section {
+    text-align: center; 
+    margin: 10px auto;
+    width: 80%; 
+    max-width: 600px;    
+    background-color: #fff; 
+    padding: 2px;    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-section ol, 
+.list-section ul {
+    list-style-position:inside; 
+    padding-left: 0px;          
+    margin-left: 0px;
+}
+.list-section li {
+    padding-left: 0px;   
+    margin: 0px ;   
+    font-size: 1.2em;
