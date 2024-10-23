@@ -39,3 +39,16 @@ nav ul a:hover {
     background-color: #555;
     border-radius: 5px;
 }
+
+p { font-size: 12px;
+margin: 3px;
+padding: 2px;}
+
+h2 {margin: 1px;
+padding: %px 1px 1px 1px;}
+
+.work-link:hover {
+    color: #0022ff;
+}
+.work-link{ color: #000;
+text-decoration:double}
