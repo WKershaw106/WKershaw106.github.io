@@ -43,3 +43,6 @@ nav ul a:hover {
 nav table { 
     align-items: center;
 }
+
+nav table{ border-color: rgb(171, 234, 248);
+border-width: 5px;}
