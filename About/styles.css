@@ -30,6 +30,10 @@ nav a {
 nav ul {
     display: flex;
     justify-content: center;
+    background-color: #a52eff;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 20px;
 
 
 }
@@ -37,7 +41,7 @@ nav ul {
 /* Hover effect for the menu items */
 nav ul a:hover {
     background-color: #555;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .image {
@@ -69,3 +73,10 @@ nav ul a:hover {
     padding-left: 0px;   
     margin: 0px ;   
     font-size: 1.2em;
+}
+   
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
